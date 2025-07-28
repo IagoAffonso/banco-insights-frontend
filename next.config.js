@@ -12,8 +12,8 @@ const nextConfig = {
   // Configuration for static export (GitHub Pages)
   output: 'export',
   trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/banco-insights-2.0' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/banco-insights-2.0/' : ''
+  //basePath: process.env.NODE_ENV === 'production' ? '/banco-insights-2.0' : '',
+  //assetPrefix: process.env.NODE_ENV === 'production' ? '/banco-insights-2.0/' : ''
 }
 
 module.exports = nextConfig
